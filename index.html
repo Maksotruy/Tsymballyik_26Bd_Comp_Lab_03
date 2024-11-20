@@ -1,0 +1,133 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Лабораторна 3</title> 
+    <link rel="stylesheet" href="./css/style.css"></link>
+</head> 
+<body>
+    <main>
+        <form>
+        <div class="webpage">
+            <div class="content1">
+                <div class="circle">
+                    <img src="./Foto/Cloud.png" height="20"  class="iconk">
+                </div>
+                <div class="date-container">
+                    <p>Date: <input type="number" placeholder="03/14/2020"></p>
+                    <p>Due date: <input type="number" placeholder="Select date..."></p>
+                </div>
+                    <div class="blok">
+                        <div class="title">
+                        <h1>Invoice #001</h1>
+                    </div>    
+                </div>
+                <div class="content">
+                    <div class="blok1">
+                        <h2>Bill from</h2>
+                        <input type="email" placeholder="Email">
+                        <textarea placeholder="Who is this invoice from?"></textarea>
+                    </div>
+                    <div class="blok1">
+                        <h2>Bill to</h2>
+                        <input type="email" placeholder="Email">
+                        <textarea placeholder="Who is this invoice to?"></textarea>
+                    </div>
+                    </div>
+                    <div class="item-list">
+                        <div class="heder-item">
+                            <p>ITEM</p>
+                            <p class="p2">QTY</p>
+                            <p class="p3">RATE</p>
+                            <p class="p4">TOTAL</p>
+                            <p class="p5">ACTION</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="text-item">
+                            <input type="text" placeholder="Item name" class="Item-name">
+                            <input type="text" placeholder="Description" class="Item-description">
+                        </div>
+                        <input type="number" value="1" class="number">
+                        <input type="image" src="file:///C:/Users/New/Downloads/Group_7__5_-removebg-preview.png" height="13"  class="number2">  
+                        <input class="number3">  
+                        <input type="number" placeholder="0.00" class="number1">
+                        <p class="zero">$0.00</p>
+                        <p class="dots">...</p>
+                    </div>
+                    <div class="blok2">
+                        <div class="left-text">
+                            <p class="add-item">Add item</p>
+                            <div class="right-text">
+                                <div class="subtotal">
+                                    <p>Subtotal</p>
+                                    <p class="sub">$0.00</p>
+                                </div>
+                                <p class="add-disco">Add discount</p>
+                                <p class="add-tax">Add tax</p>
+                                <div class="total">
+                                    <p>Total</p>
+                                    <p class="tot">$0.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blok3">
+                        <div>
+                            <p>Notes</p>
+                            <textarea placeholder="Thanks for your business!" class="coment"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="content2">
+                    <button class="button-blue "> <img src="./Foto/Plane.png" height="13"><p>Send Invoice</p></button>
+                    <div class="butm">
+                        <button class="bum1">Previev</button>
+                        <button class="bum1">Download</button>
+                    </div>
+                    <div class="blok4">
+                        <div>
+                            <p>Curency</p>
+                        </div>
+                        <div class="currency-selector">
+                            <div class="currency"></div>
+                            <select >
+                                <option value="usd">USD (United States Dollar)</option>
+                                <option value="eur">EUR (Euro)</option>
+                                <option value="uan">UAN (Hryvnia)</option>
+                            </select> 
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="blok5">
+                            <div class="pols">
+                                <p>Payment method</p>
+                                <p>Late fees</p>
+                                <p>Notes</p>
+                            </div>
+                            <div class="togl">
+                                <div class="toggle-switch">
+                                    <input type="checkbox" id="toggle" class="toggle-input">
+                                    <label for="toggle" class="toggle-label"></label>
+                                </div>
+                                <div class="toggle-switch">
+                                    <input type="checkbox" id="switch2" class="toggle-input">
+                                    <label for="switch2" class="toggle-label"></label>
+                                </div>
+                                 <div class="toggle-switch">
+                                    <input type="checkbox" id="switch3" class="toggle-input" checked>
+                                    <label for="switch3" class="toggle-label"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        </form>
+    </main>
+</body>
+</html>
